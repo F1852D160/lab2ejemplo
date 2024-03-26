@@ -28,6 +28,11 @@ class FragmentDos : Fragment() {
         this.contadorListener = c
     }
 
+
+
+
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val txt2 = view.findViewById<TextView>(R.id.txt2)
         val btn = view.findViewById<Button>(R.id.btn2)

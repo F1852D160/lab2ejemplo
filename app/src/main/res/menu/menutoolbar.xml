@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Item 1"
+        android:id="@+id/itemBuscar"
+
+        android:icon="@drawable/search_fill0"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView">
+
+
+
+    </item>
+
+    <item android:title="Item 1"
+        android:id="@+id/itemGuardar"
+
+        android:icon="@drawable/baseline_home_24"
+        app:showAsAction="always"
+        ></item>
+    <item android:title="Ajustes"
+
+
+        android:id="@+id/itemAjustes"
+
+        ></item>
+
+</menu>
